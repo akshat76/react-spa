@@ -6,7 +6,7 @@ import Login from './containers/login';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" >
         <NavBar />
         <Login />
       </div>
