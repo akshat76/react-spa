@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import TextBox from './components/TextBox'
+import NavBar from './components/header';
+import Login from './containers/login';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <TextBox/>
+        <NavBar />
+        <Login />
       </div>
     );
   }
